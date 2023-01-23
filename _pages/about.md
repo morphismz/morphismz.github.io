@@ -12,9 +12,11 @@ I am a student at the University of Colorado Boulder, studying mathematics and p
 
 Mathematics
 ======
-My interests in mathematics include higher category theory, homotopy theory, the foundations of mathematics, and bringing these subjects closer together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I am also fascinated by the process of categorification and how it reveals higher structures that simply cannot be seen in set based mathematics. I like univalent and structural approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community.
+My interests in mathematics include higher category theory, homotopy theory, the foundations of mathematics, and bringing these subjects closer together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I like univalent and structural approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community.
 
 I am currently writing my senior thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$.
+
+I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. 
 
 I hope to enter into a mathematics Ph.D. program in Fall 2023.
 
@@ -26,6 +28,6 @@ My interests in philosophy are primarily in metaphysics, philosophy of language,
 
 Baking and Confection Making
 ======
-My interests in baking and confection making are wide ranging, ranging as wide as time permits :) I started baking around the age of fourteen and continued enjoying tasty, fresh bread since then. I took up basic confection making during The Pandemic and have tried to make confections any chance I get, though its a lot harder to find the time (confection recipes are... more involved). 
+My interests in baking and confection making are wide ranging, ranging as wide as time permits :) I started baking around the age of fourteen and have continued enjoying tasty, fresh bread since then. I took up basic confection making during The Pandemic and have tried to make confections any chance I get, though its a lot harder to find the time (confection recipes are... more involved). 
 
 I like adapting commercial yeast recipes to sourdough recipies. I will post certain recipes under the Baking page.
