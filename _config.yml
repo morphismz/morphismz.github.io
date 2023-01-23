@@ -85,10 +85,10 @@ author:
   bio              : "Mathematics and Philosophy Student at the University of Colorado Boulder"
   location         : "Boulder, CO, USA"
   employer         : "CU Boulder"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :
+  googlescholar    :
+  email            : "raymond.baker@colorado.edu"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,17 +96,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "morphismz"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://math.stackexchange.com/users/879794/isadisplayname" # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          : "replacethistwitterhandle"
