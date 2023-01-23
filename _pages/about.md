@@ -12,7 +12,7 @@ I am a student at the University of Colorado Boulder, studying mathematics and p
 
 Mathematics
 ======
-My interests in mathematics include higher category theory, homotopy theory, the foundations of mathematics, and bringing the two together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I am fascinated by the process of categorification and how it higher structures that simply cannot be seen in set based mathematics. I favor univalent and structural approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community.
+My interests in mathematics include higher category theory, homotopy theory, the foundations of mathematics, and bringing the two together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I am fascinated by the process of categorification and how it reveals higher structures that simply cannot be seen in set based mathematics. I favor univalent and structural approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community.
 
 I am currently writing my senior thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$.
 
