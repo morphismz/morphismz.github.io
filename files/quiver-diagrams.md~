@@ -2,8 +2,9 @@
 title: Basics Shapes for Commutative Diagrams in Quiver
 ---
 
-# [Horizontal commutative rectangle](https://q.uiver.app/?q=WzAsNixbMCwwLCJcXGJ1bGxldCJdLFsyLDAsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbMCwyLCJcXGJ1bGxldCJdLFsyLDIsIlxcYnVsbGV0Il0sWzQsMiwiXFxidWxsZXQiXSxbMCwxXSxbMSwyXSxbMyw0XSxbNCw1XSxbMCwzXSxbMSw0XSxbMiw1XV0=&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt) (two squares):
+# Horizontal commutative rectangle (two squares):
 
+% https://q.uiver.app/?q=WzAsNixbMCwwLCJcXGJ1bGxldCJdLFsyLDAsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbMCwyLCJcXGJ1bGxldCJdLFsyLDIsIlxcYnVsbGV0Il0sWzQsMiwiXFxidWxsZXQiXSxbMCwxXSxbMSwyXSxbMyw0XSxbNCw1XSxbMCwzXSxbMSw0XSxbMiw1XV0=&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt
 \[\begin{tikzcd}
 	\bullet && \bullet && \bullet \\
 	\\
