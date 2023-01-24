@@ -26,6 +26,7 @@
 \newcommand{\pr}{\mathsf{pr}}
 \newcommand{\lift}{\mathsf{lift}}
 \newcommand{\ap}{\mathsf{ap}}
+\newcommand{\apd}{\mathsf{apd}}
 \newcommand{\rinv}[1]{\mathsf{r}\text{-}\mathsf{inv}_{#1}}
 \newcommand{\linv}[1]{\mathsf{l}\text{-}\mathsf{inv}_{#1}}
 \newcommand{\runit}[1]{\mathsf{r}\text{-}\mathsf{unit}_{#1}}
