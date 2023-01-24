@@ -1,5 +1,5 @@
 ---
-title: "Generation Teach"
+title: "Teaching - Generation Teach"
 collection: teaching
 type: "Summer School - 6th Grade"
 permalink: /teaching/2021-summer-gt

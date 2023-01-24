@@ -1,5 +1,5 @@
 ---
-title: "Mathematics Academic Resource Center Tutoring"
+title: "Tutoring - Mathematics Academic Resource Center"
 collection: teaching
 type: "Tutoring"
 permalink: /teaching/2020-all-marc

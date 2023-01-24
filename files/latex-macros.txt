@@ -1,0 +1,45 @@
+\newcommand{\sphone}{\mathbb{S}^1}
+\newcommand{\bone}{\mathsf{b}_1}
+\newcommand{\loopone}{\mathsf{loop}}
+\newcommand{\sphtwo}{\mathbb{S}^2}
+\newcommand{\Ntwo}{\mathsf{N}_2}
+\newcommand{\Stwo}{\mathsf{S}_2}
+\newcommand{\meridtwo}{\mathsf{merid}_2}
+\newcommand{\sphthree}{\mathbb{S}^3}
+\newcommand{\Nthree}{\mathsf{N}_3}
+\newcommand{\Sthree}{\mathsf{S}_3}
+\newcommand{\meridthree}{\mathsf{merid}_3}
+\newcommand{\Htot}[1]{\sum_{#1 : \sphtwo} H #1}
+
+\newcommand{\tot}[3]{\sum_{#1 : #2} #3 #1}
+\newcommand{\totparens}[3]{\sum_{#1 : #2} #3 (#1)}
+\newcommand{\totdir}[3]{\sum_{#1 : #2} #3}
+
+\newcommand{\shf}{\mathsf{shift}}
+\newcommand{\unshf}{\mathsf{unshift}}
+
+\newcommand{\inv}{^{-1}}
+\newcommand{\invd}{^{-1^{\mathsf{d}}}}
+\newcommand{\Id}{\mathsf{Id}}
+\newcommand{\fib}[2]{\mathsf{fib}_{#1}(#1)}
+\newcommand{\hpf}{\mathsf{hpf}}
+\newcommand{\pr}{\mathsf{pr}}
+\newcommand{\lift}{\mathsf{lift}}
+\newcommand{\ap}{\mathsf{ap}}
+\newcommand{\rinv}[1]{\mathsf{r}\text{-}\mathsf{inv}_{#1}}
+\newcommand{\linv}[1]{\mathsf{l}\text{-}\mathsf{inv}_{#1}}
+\newcommand{\runit}[1]{\mathsf{r}\text{-}\mathsf{unit}_{#1}}
+\newcommand{\lunit}[1]{\mathsf{l}\text{-}\mathsf{unit}_{#1}}
+\newcommand{\rinvd}[1]{\mathsf{r}\text{-}\mathsf{invd}_{#1}}
+\newcommand{\linvd}[1]{\mathsf{l}\text{-}\mathsf{invd}_{#1}}
+\newcommand{\runitd}[1]{\mathsf{r}\text{-}\mathsf{unitd}_{#1}}
+\newcommand{\lunitd}[1]{\mathsf{l}\text{-}\mathsf{unitd}_{#1}}
+\newcommand{\oneover}[2]{1_{#1_* #2}}
+\newcommand{\tr}[1]{\mathsf{tr}^{#1}}
+\newcommand{\trsq}[1]{\mathsf{tr}^{#1^2}}
+\newcommand{\trconcat}[1]{\mathsf{tr}\text{-}\mathsf{concat}_{#1}}
+
+\newcommand{\eqsq}[2]{=^{#1^2}_{#2}}
+
+\newcommand{\ua}{\mathsf{ua}}
+\newcommand{\fe}{\mathsf{fe}}
