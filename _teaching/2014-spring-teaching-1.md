@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Generation Teach"
 collection: teaching
-type: "Undergraduate course"
+type: "Summer School - 6th Grade"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "GT STRIVE Prep - Lake, Mathematics "
+date: Summer 2021
+location: "Denver, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I worked as a teaching fellow at Generation Teaching, working at the Strive Prep - Lake location. I taugh 6th grade mathematics to aclass size of about 30 students.
