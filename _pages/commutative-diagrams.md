@@ -33,7 +33,7 @@ header-includes:
 	\arrow["{1_{p'}\star\beta}", no head, from=1-3, to=3-3]
 \end{tikzcd}\]
 
-#### [$\mathsf{l-unit}_\alpha$](https://q.uiver.app/?q=WzAsNSxbMCwwLCIxX3ggXFxjZG90IHAiXSxbMCwyLCIxX3ggXFxjZG90IHAnIl0sWzIsMiwicCciXSxbMiwwLCJwIl0sWzEsMSwiXFxsdW5pdHtcXGFscGhhfSJdLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDIsIlxcbHVuaXR7cCd9IiwyXSxbMCwzLCJcXGx1bml0e3B9Il0sWzMsMiwiXFxhbHBoYSJdXQ==&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
+#### $\mathsf{l-unit}_\alpha$ [(on quiver)](https://q.uiver.app/?q=WzAsNSxbMCwwLCIxX3ggXFxjZG90IHAiXSxbMCwyLCIxX3ggXFxjZG90IHAnIl0sWzIsMiwicCciXSxbMiwwLCJwIl0sWzEsMSwiXFxsdW5pdHtcXGFscGhhfSJdLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDIsIlxcbHVuaXR7cCd9IiwyXSxbMCwzLCJcXGx1bml0e3B9Il0sWzMsMiwiXFxhbHBoYSJdXQ==&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
 \[\begin{tikzcd}
 	{1_x \cdot p} && p \\
@@ -45,7 +45,7 @@ header-includes:
 	\arrow["\alpha", from=1-3, to=3-3]
 \end{tikzcd}\]
 
-#### Both [$\mathsf{l-unit}_{\alpha}$ and $\mathsf{right-unit}_\alpha$](https://q.uiver.app/?q=WzAsMTAsWzAsMCwiMV94IFxcY2RvdCBwIl0sWzAsMiwiMV94IFxcY2RvdCBwJyJdLFsyLDIsInAnIl0sWzIsMCwicCJdLFsxLDEsIlxcbHVuaXR7XFxhbHBoYX0iXSxbNCwwLCJwXFxjZG90IDFfeSJdLFs0LDIsInAnIFxcY2RvdCAxX3kiXSxbNiwyLCJwJyJdLFs2LDAsInAiXSxbNSwxLCJcXHJ1bml0e1xcYWxwaGF9Il0sWzAsMSwiMV94XjIgXFxzdGFyIFxcYWxwaGEiLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxsdW5pdHtwJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxsdW5pdHtwfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywyLCJcXGFscGhhIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIlxcYWxwaGEgXFxzdGFyIDFeMl95IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDcsIlxccnVuaXR7cCd9IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDgsIlxccnVuaXR7cH0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzgsNywiXFxhbHBoYSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
+#### Both $\mathsf{l-unit}_{\alpha}$ and $\mathsf{right-unit}_\alpha$ in one diagram [(on quiver)](https://q.uiver.app/?q=WzAsMTAsWzAsMCwiMV94IFxcY2RvdCBwIl0sWzAsMiwiMV94IFxcY2RvdCBwJyJdLFsyLDIsInAnIl0sWzIsMCwicCJdLFsxLDEsIlxcbHVuaXR7XFxhbHBoYX0iXSxbNCwwLCJwXFxjZG90IDFfeSJdLFs0LDIsInAnIFxcY2RvdCAxX3kiXSxbNiwyLCJwJyJdLFs2LDAsInAiXSxbNSwxLCJcXHJ1bml0e1xcYWxwaGF9Il0sWzAsMSwiMV94XjIgXFxzdGFyIFxcYWxwaGEiLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxsdW5pdHtwJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxsdW5pdHtwfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywyLCJcXGFscGhhIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIlxcYWxwaGEgXFxzdGFyIDFeMl95IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDcsIlxccnVuaXR7cCd9IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDgsIlxccnVuaXR7cH0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzgsNywiXFxhbHBoYSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
 \[\begin{tikzcd}
 	{1_x \cdot p} && p && {p\cdot 1_y} && p \\
