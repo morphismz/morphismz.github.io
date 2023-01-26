@@ -5,11 +5,6 @@ excerpt: " "
 output:
   pdf_document: default
 header-includes:
-  - \usepackage{amsmath}
-  - \usepackage{amssymb}
-  - \usepackage{amsthm}
-  - \usepackage{mathrsfs}
-  - \usepackage{amssymb}
   - \usepackage{tikz}
   - \usepackage{tikz-cd}
 ---
