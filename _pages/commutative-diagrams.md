@@ -5,6 +5,7 @@ excerpt: " "
 output:
   pdf_document: default
 header-includes:
+  -\usepackage{amsmath, amssymb, amsthm, mathrsfs}
   -\usepackage{amssymb}
   - \usepackage{tikz}
   - \usepackage{tikz-cd}
