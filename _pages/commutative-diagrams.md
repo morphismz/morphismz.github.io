@@ -35,7 +35,7 @@ header-includes:
 
 #### [$\mathsf{l-unit}_\alpha$](https://q.uiver.app/?q=WzAsNSxbMCwwLCIxX3ggXFxjZG90IHAiXSxbMCwyLCIxX3ggXFxjZG90IHAnIl0sWzIsMiwicCciXSxbMiwwLCJwIl0sWzEsMSwiXFxsdW5pdHtcXGFscGhhfSJdLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDIsIlxcbHVuaXR7cCd9IiwyXSxbMCwzLCJcXGx1bml0e3B9Il0sWzMsMiwiXFxhbHBoYSJdXQ==&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
-$ \begin{tikzcd}
+\[\begin{tikzcd}
 	{1_x \cdot p} && p \\
 	& {\lunit{\alpha}} \\
 	{1_x \cdot p'} && {p'}
@@ -43,11 +43,11 @@ $ \begin{tikzcd}
 	\arrow["{\lunit{p'}}"', from=3-1, to=3-3]
 	\arrow["{\lunit{p}}", from=1-1, to=1-3]
 	\arrow["\alpha", from=1-3, to=3-3]
-\end{tikzcd} $
+\end{tikzcd}\]
 
 #### Both [$\mathsf{l-unit}_{\alpha}$ and $\mathsf{right-unit}_\alpha$](https://q.uiver.app/?q=WzAsMTAsWzAsMCwiMV94IFxcY2RvdCBwIl0sWzAsMiwiMV94IFxcY2RvdCBwJyJdLFsyLDIsInAnIl0sWzIsMCwicCJdLFsxLDEsIlxcbHVuaXR7XFxhbHBoYX0iXSxbNCwwLCJwXFxjZG90IDFfeSJdLFs0LDIsInAnIFxcY2RvdCAxX3kiXSxbNiwyLCJwJyJdLFs2LDAsInAiXSxbNSwxLCJcXHJ1bml0e1xcYWxwaGF9Il0sWzAsMSwiMV94XjIgXFxzdGFyIFxcYWxwaGEiLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxsdW5pdHtwJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxsdW5pdHtwfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywyLCJcXGFscGhhIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIlxcYWxwaGEgXFxzdGFyIDFeMl95IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDcsIlxccnVuaXR7cCd9IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDgsIlxccnVuaXR7cH0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzgsNywiXFxhbHBoYSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
-$$\begin{tikzcd}
+\[\begin{tikzcd}
 	{1_x \cdot p} && p && {p\cdot 1_y} && p \\
 	& {\lunit{\alpha}} &&&& {\runit{\alpha}} \\
 	{1_x \cdot p'} && {p'} && {p' \cdot 1_y} && {p'}
@@ -59,4 +59,4 @@ $$\begin{tikzcd}
 	\arrow["{\runit{p'}}"', no head, from=3-5, to=3-7]
 	\arrow["{\runit{p}}", no head, from=1-5, to=1-7]
 	\arrow["\alpha", no head, from=1-7, to=3-7]
-\end{tikzcd} $$
+\end{tikzcd}\]
