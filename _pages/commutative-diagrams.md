@@ -21,41 +21,7 @@ header-includes:
 ### Eckmann-Hilton Path Diagrams :
 
 #### $(\lambda (t). \alpha \star 1_t)(\beta)$ [(on quiver)]( https://q.uiver.app/?q=WzAsNSxbMCwwLCJwIFxcY2RvdCBxIl0sWzAsMiwicCBcXGNkb3QgcSciXSxbMiwyLCJwJyBcXGNkb3QgcSciXSxbMiwwLCJwJyBcXGNkb3QgcSJdLFsxLDEsIihcXGxhbWJkYSB0LiBcXGFscGhhIFxcc3RhciAxX3QpKFxcYmV0YSkiXSxbMCwxLCIxX3AgXFxzdGFyIFxcYmV0YSIsMix7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwyLCJcXGFscGhhIFxcc3RhciAxX3txJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxhbHBoYSBcXHN0YXIxX3EiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMiwiMV97cCd9XFxzdGFyXFxiZXRhIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==)
-$\begin{tikzcd}
-	{p \cdot q} && {p' \cdot q} \\
-	& {(\lambda t. \alpha \star 1_t)(\beta)} \\
-	{p \cdot q'} && {p' \cdot q'}
-	\arrow["{1_p \star \beta}"', no head, from=1-1, to=3-1]
-	\arrow["{\alpha \star 1_{q'}}"', no head, from=3-1, to=3-3]
-	\arrow["{\alpha \star1_q}", no head, from=1-1, to=1-3]
-	\arrow["{1_{p'}\star\beta}", no head, from=1-3, to=3-3]
-\end{tikzcd}$
 
 #### $\mathsf{l}\text{-}\mathsf{unit}_\alpha$ [(on quiver)](https://q.uiver.app/?q=WzAsNSxbMCwwLCIxX3ggXFxjZG90IHAiXSxbMCwyLCIxX3ggXFxjZG90IHAnIl0sWzIsMiwicCciXSxbMiwwLCJwIl0sWzEsMSwiXFxsdW5pdHtcXGFscGhhfSJdLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDIsIlxcbHVuaXR7cCd9IiwyXSxbMCwzLCJcXGx1bml0e3B9Il0sWzMsMiwiXFxhbHBoYSJdXQ==&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
-$\alpha$
-$\begin{tikzcd}
-	{1_x \cdot p} && p \\
-	& {\lunit{\alpha}} \\
-	{1_x \cdot p'} && {p'}
-	\arrow["{1_x^2 \star \alpha}"', no head, from=1-1, to=3-1]
-	\arrow["{\lunit{p'}}"', from=3-1, to=3-3]
-	\arrow["{\lunit{p}}", from=1-1, to=1-3]
-	\arrow["\alpha", from=1-3, to=3-3]
-\end{tikzcd}$
-
 #### Both $\mathsf{l}\text{-}\mathsf{unit}_{\alpha}$ and $\mathsf{right-unit}_\alpha$ in one diagram [(on quiver)](https://q.uiver.app/?q=WzAsMTAsWzAsMCwiMV94IFxcY2RvdCBwIl0sWzAsMiwiMV94IFxcY2RvdCBwJyJdLFsyLDIsInAnIl0sWzIsMCwicCJdLFsxLDEsIlxcbHVuaXR7XFxhbHBoYX0iXSxbNCwwLCJwXFxjZG90IDFfeSJdLFs0LDIsInAnIFxcY2RvdCAxX3kiXSxbNiwyLCJwJyJdLFs2LDAsInAiXSxbNSwxLCJcXHJ1bml0e1xcYWxwaGF9Il0sWzAsMSwiMV94XjIgXFxzdGFyIFxcYWxwaGEiLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxsdW5pdHtwJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxsdW5pdHtwfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywyLCJcXGFscGhhIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIlxcYWxwaGEgXFxzdGFyIDFeMl95IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDcsIlxccnVuaXR7cCd9IiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDgsIlxccnVuaXR7cH0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzgsNywiXFxhbHBoYSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
-
-$\begin{tikzcd}
-	{1_x \cdot p} && p && {p\cdot 1_y} && p \\
-	& {\lunit{\alpha}} &&&& {\runit{\alpha}} \\
-	{1_x \cdot p'} && {p'} && {p' \cdot 1_y} && {p'}
-	\arrow["{1_x^2 \star \alpha}"', no head, from=1-1, to=3-1]
-	\arrow["{\lunit{p'}}"', no head, from=3-1, to=3-3]
-	\arrow["{\lunit{p}}", no head, from=1-1, to=1-3]
-	\arrow["\alpha", no head, from=1-3, to=3-3]
-	\arrow["{\alpha \star 1^2_y}"', no head, from=1-5, to=3-5]
-	\arrow["{\runit{p'}}"', no head, from=3-5, to=3-7]
-	\arrow["{\runit{p}}", no head, from=1-5, to=1-7]
-	\arrow["\alpha", no head, from=1-7, to=3-7]
-\end{tikzcd}$
