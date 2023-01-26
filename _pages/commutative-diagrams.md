@@ -2,7 +2,6 @@
 permalink: /commutative-diagrams/
 title: "Commutative Diagrams from my Honors Thesis"
 excerpt: " "
-author_profile: true
 output:
   pdf_document: default
 header-includes:
