@@ -1,3 +1,10 @@
+---
+permalink: /commutative-diagrams/
+title: "Commutative Diagrams from my Honors Thesis"
+excerpt: " "
+author_profile: true
+---
+
 ### Definition of $h \cdot_d k$ :
 
 https://q.uiver.app/?q=WzAsNCxbMCwwLCIocCBcXGNkb3QgcSlfKiAodSkiXSxbMiwwLCJxXyogXFxjaXJjIHBfKih1KSJdLFs0LDAsInFfKih2KSJdLFs1LDAsInciXSxbMCwxLCJcXHRyY29uY2F0e3AscX0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxhcChxXyopKGgpIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsyLDMsImsiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt
