@@ -35,6 +35,7 @@ $\begin{tikzcd}
 
 #### $\mathsf{l}\text{-}\mathsf{unit}_\alpha$ [(on quiver)](https://q.uiver.app/?q=WzAsNSxbMCwwLCIxX3ggXFxjZG90IHAiXSxbMCwyLCIxX3ggXFxjZG90IHAnIl0sWzIsMiwicCciXSxbMiwwLCJwIl0sWzEsMSwiXFxsdW5pdHtcXGFscGhhfSJdLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDIsIlxcbHVuaXR7cCd9IiwyXSxbMCwzLCJcXGx1bml0e3B9Il0sWzMsMiwiXFxhbHBoYSJdXQ==&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
+$\alpha$
 $\begin{tikzcd}
 	{1_x \cdot p} && p \\
 	& {\lunit{\alpha}} \\
