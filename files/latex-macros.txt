@@ -8,26 +8,49 @@
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\bool}{\mathsf{Bool}}
 
+\newcommand{\isequiv}{\mathsf{is}\text{-}\mathsf{equiv}}
 \newcommand{\fib}[2]{\mathsf{fib}_{#1}(#1)}
 
 \newcommand{\eqsq}[2]{=^{#1^2}_{#2}}
 
-	% Sigma Types / Total Spaces
+	% Sigma Types
 
 \newcommand{\tot}[3]{\sum_{#1 : #2} #3 #1}
 \newcommand{\totparens}[3]{\sum_{#1 : #2} #3 (#1)}
-\newcommand{\totdir}[3]{\sum_{#1 : #2} #3}
+\newcommand{\totdir}[3]{\sum_{#1 : #2} #3n}
 
+	%Pi Types
+
+\newcommand{\pitype}[3]{\prod_{#1 : #2} #3 #1}
+\newcommand{\pitypeparens}[3]{\prod_{#1 : #2} #3 (#1)}
+\newcommand{\pitypedir}[3]{\prod_{#1 : #2} #3}
 
 % Functions
 
 \newcommand{\Id}{\mathsf{Id}}
 \newcommand{\pr}{\mathsf{pr}}
 \newcommand{\ua}{\mathsf{ua}}
+\newcommand{\hap}{\mathsf{happly}}
 \newcommand{\fe}{\mathsf{fe}}
+\newcommand{\hrefl}[1]{\mathsf{refl}\text{-}\mathsf{htpy}_{#1}}
 
 \newcommand{\shf}{\mathsf{shift}}
 \newcommand{\unshf}{\mathsf{unshift}}
+
+
+	% Functions Related to Paths
+
+\newcommand{\comp}{\bigcdot}
+\newcommand{\tr}[1]{\mathsf{tr}^{#1}}
+\newcommand{\ap}{\mathsf{ap}}
+\newcommand{\bap}{\mathsf{bin}\text{-}\mathsf{ap}}
+\newcommand{\apd}{\mathsf{apd}}
+\newcommand{\lift}{\mathsf{lift}}
+\newcommand{\trsq}[1]{\mathsf{tr}^{#1^2}}
+\newcommand{\trconcat}[1]{\mathsf{tr}\text{-}\mathsf{concat}_{#1}}
+\newcommand{\htpynat}{\mathsf{htpy}\text{-}\mathsf{nat}}
+
+\newcommand{\EH}{\mathsf{EH}}
 
 
 % Spheres
@@ -68,13 +91,6 @@
 \newcommand{\lunitd}[1]{\mathsf{l}\text{-}\mathsf{unitd}_{#1}}
 \newcommand{\oneover}[2]{1_{#1_* #2}}
 
-	% Functions Related to Paths
-
-\newcommand{\tr}[1]{\mathsf{tr}^{#1}}
-\newcommand{\ap}{\mathsf{ap}}
-\newcommand{\apd}{\mathsf{apd}}
-\newcommand{\lift}{\mathsf{lift}}
-\newcommand{\trsq}[1]{\mathsf{tr}^{#1^2}}
-\newcommand{\trconcat}[1]{\mathsf{tr}\text{-}\mathsf{concat}_{#1}}
-
-\newcommand{\EH}{\mathsf{EH}}
+\newcommand{\coh}[1]{\mathsf{coh}_{#1}}
+\newcommand{\cohl}[1]{\mathsf{l}\text{-}\mathsf{coh}_{#1}}
+\newcommand{\cohr}[1]{\mathsf{r}\text{-}\mathsf{coh}_{#1}}
