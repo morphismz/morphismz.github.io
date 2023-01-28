@@ -6,7 +6,9 @@ excerpt: "a linked list of commutative diagrams appearing in my Honors Thesis *E
 
 # Part : Background Theory
 
-## Chapter : Dependent Paths
+## Chapter : The Types
+
+### Section : Dependent Paths
 
 ###### [Definition](https://q.uiver.app/?q=WzAsNCxbMCwwLCIocCBcXGNkb3QgcSlfKiAodSkiXSxbMiwwLCJxXyogXFxjaXJjIHBfKih1KSJdLFs0LDAsInFfKih2KSJdLFs1LDAsInciXSxbMCwxLCJcXHRyY29uY2F0e3AscX0iLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxhcChxXyopKGgpIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsyLDMsImsiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt) of $h \cdot_d k$
 
@@ -16,6 +18,7 @@ excerpt: "a linked list of commutative diagrams appearing in my Honors Thesis *E
 
 ###### [middle square filler](https://q.uiver.app/?q=WzAsOCxbMCwwLCJxXyogXFxjaXJjIHBfKiAodSkiXSxbMiwwLCJxJ18qIFxcY2lyYyBwXyogKHUpIl0sWzQsMCwicSdfKiBcXGNpcmMgcCcgKHUpIl0sWzAsMiwicV8qICh2KSJdLFsyLDIsInEnXyoodikiXSxbNCwyLCJxJ18qKHYpIl0sWzEsMSwiXFxhcChcXHRyc3F7Qn0oXFxiZXRhKSkoaCkiXSxbMywxLCJcXGFwXjIocV8qKShcXGdhbW1hKSJdLFswLDEsIlxcdHJzcXtCfShcXGJldGEpKHBfKih1KSkiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsMiwiXFxhcChxJ18qKShcXHRyc3F7Qn0gKFxcYWxwaGEpKHUpKSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMyw0LCJcXHRyc3F7Qn0oXFxiZXRhKSh2KSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCw1LCIxX3txJ18qKHYpfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywwLCJcXGFwKHFfKikoaCkiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsNCwiXFxhcChxJ18qKShoKSIsMSx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMiw1LCJcXGFwKHEnXyopKGgnKSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
+### Section : Function Types
 
 ##### Action on Paths and Binary action on Paths
 
