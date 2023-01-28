@@ -40,6 +40,12 @@
 
 	% Functions Related to Paths
 
+	%making comp
+	\makeatletter
+	\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+	\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+	\makeatother
+
 \newcommand{\comp}{\bigcdot}
 \newcommand{\tr}[1]{\mathsf{tr}^{#1}}
 \newcommand{\ap}{\mathsf{ap}}
