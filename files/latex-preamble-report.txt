@@ -19,8 +19,3 @@
 
 % bigcdot
 \usepackage{graphicx}
-
-\makeatletter
-\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
-\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
-\makeatother
