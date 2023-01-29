@@ -3,10 +3,10 @@ title: "Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory"
 collection: publications
 permalink: /publication/2023-03-01-eh-and-hopf
 excerpt: 'This is my undergraduate honors thesis. It aims to prove that the Eckmann-Hilton path can be used to construct a generator of $\pi_3(\mathbb{S}^2)$'.
-date: 'forthcoming'
+date: '2023-03-01'
 venue: 'CU Boulder'
 paperurl: 'http://morphismz.github.io/files/honors-thesis.pdf'
-citation: 'Baker, Raymond. (*forthcoming*). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Baker, Raymond. (*forthcoming*). &quot; Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory.&quot; <i> CU Boulder</i>. 1(1).'
 ---
 
 #### Abstract :
