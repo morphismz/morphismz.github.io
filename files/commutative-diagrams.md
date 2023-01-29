@@ -33,7 +33,9 @@ excerpt: "a linked list of commutative diagrams appearing in my Honors Thesis *E
 
 ## Chapter : Eckmann-Hilton
 
-### Section : $\star$ on when one path is unit.
+### Section : The Eckman-Hilton Argument
+
+#### : $\star$ on when one path is unit.
 
 ###### [left](https://q.uiver.app/?q=WzAsNyxbMCwwLCIxX3ggXFxjb21wIHAiXSxbMCw2LCIxX3ggXFxjb21wIHAnIl0sWzQsNiwicCciXSxbNCwwLCJwIl0sWzIsMywiXFxsdW5pdHtcXGFscGhhfSJdLFs0LDMsIlxcYXBcXHRleHR7LX1cXElkX1xcYWxwaGEiXSxbMCwzLCJcXGNvaHt9IFxcaW52Il0sWzEsMiwiXFxsdW5pdHtwJ30iLDIseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxsdW5pdHtwfSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMywyLCJcXElkKFxcYWxwaGEpIiwxLHsibGFiZWxfcG9zaXRpb24iOjMwLCJjdXJ2ZSI6NSwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDEsIjFfeF4yIFxcc3RhciBcXGFscGhhIiwxLHsibGFiZWxfcG9zaXRpb24iOjMwLCJjdXJ2ZSI6NSwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFszLDIsIlxcYWxwaGEiLDEseyJsYWJlbF9wb3NpdGlvbiI6MzAsImN1cnZlIjotNSwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDEsIigxX3ggXFxjb21wICAtICkoXFxhbHBoYSkiLDEseyJsYWJlbF9wb3NpdGlvbiI6MzAsImN1cnZlIjotNSwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dXQ==&macro_url=https%3A%2F%2Fmorphismz.github.io%2Ffiles%2Flatex-macros.txt)
 
