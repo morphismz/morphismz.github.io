@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a student at the University of Colorado Boulder, studying mathematics and philosophy. I also enjoy baking and confection making. This site will serve to share details about my exploits in both of these things :)
+I am a student at the University of Colorado Boulder, studying mathematics and philosophy. I also enjoy baking and confection making. This site will serve to detail my exploits in both of these things :) (though mostly it will be about academic stuff)
 
 Mathematics
 ======
 My interests in mathematics include higher category theory, homotopy theory, the foundations of mathematics, and bringing these subjects closer together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I like univalent and structural approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community.
 
-I am currently writing my senior thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$.
+I am currently writing my honors thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. More details about the thesis can be found [here](https://morphismz.github.io/publication/2023-03-01-eh-and-hopf).
 
-I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. 
+I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. So far I have added a few transport lemmas and some operations on dependent paths. I have also added some mechanics for working with suspensions and formalized part of the suspension loop space adujunction. There is a little more ways to go to finish the suspension loop space adjunction. 
 
 I hope to enter into a mathematics Ph.D. program in Fall 2023.
 

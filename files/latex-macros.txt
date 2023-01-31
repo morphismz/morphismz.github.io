@@ -48,6 +48,8 @@
 	\makeatother
 
 \newcommand{\comp}{\ \bigcdot \ }
+\newcommand{\compd}{\ \bigcdot_d \ }
+\newcommand{\comph}{\ \bigcdot_h \ }
 \newcommand{\tr}[1]{\mathsf{tr}^{#1}}
 \newcommand{\ap}{\mathsf{ap}}
 \newcommand{\bap}{\mathsf{bin}\text{-}\mathsf{ap}}
@@ -55,7 +57,9 @@
 \newcommand{\lift}{\mathsf{lift}}
 \newcommand{\trsq}[1]{\mathsf{tr}^{#1^2}}
 \newcommand{\trconcat}[1]{\mathsf{tr}\text{-}\mathsf{concat}_{#1}}
-\newcommand{\htpynat}{\mathsf{htpy}\text{-}\mathsf{nat}}
+\newcommand{\htpynat}{\mathsf{nat}\text{-}\mathsf{htpy}}
+\newcommand{\htpynatd}{\mathsf{nat}\text{-}\mathsf{htpyd}}
+
 
 \newcommand{\EH}{\mathsf{EH}}
 
@@ -86,7 +90,7 @@
 \newcommand{\inv}{^{-1}}
 \newcommand{\invd}{^{-1^{\mathsf{d}}}}
 
-	% Identities
+	% Coherence paths
 
 \newcommand{\rinv}[1]{\mathsf{r}\text{-}\mathsf{inv}_{#1}}
 \newcommand{\linv}[1]{\mathsf{l}\text{-}\mathsf{inv}_{#1}}
@@ -101,6 +105,14 @@
 \newcommand{\coh}[1]{\mathsf{coh}_{#1}}
 \newcommand{\cohl}[1]{\mathsf{l}\text{-}\mathsf{coh}_{#1}}
 \newcommand{\cohr}[1]{\mathsf{r}\text{-}\mathsf{coh}_{#1}}
+
+\newcommand{\compap}{\mathsf{comp}\text{-}\mathsf{ap}}
+\newcommand{\apinv}{\mathsf{inv}\text{-}\mathsf{ap}}
+\newcommand{\idap}{\mathsf{id}\text{-}\mathsf{ap}}
+
+\newcommand{\compbap}{\mathsf{comp}\text{-}\mathsf{bap}}
+\newcommand{\bapinv}{\mathsf{inv}\text{-}\mathsf{bap}}
+
 
 % Quiver
 % *** quiver ***
