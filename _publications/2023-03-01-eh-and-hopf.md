@@ -9,6 +9,10 @@ paperurl: 'http://morphismz.github.io/files/honors-thesis.pdf'
 citation: 'Baker, Raymond. (*forthcoming*). &quot; Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory.&quot; <i> CU Boulder</i>. 1(1).'
 ---
 
+# Honors Thesis
+
+## Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory
+
 The thesis in in progress, to be completed sometime in 2023-03. For now, here is the introduction.
 
 #### [Introduction](http://morphismz.github.io/files/honors-thesis.pdf) :
