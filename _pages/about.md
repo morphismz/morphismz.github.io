@@ -16,7 +16,7 @@ My interests in mathematics include higher category theory, homotopy theory, the
 
 I am currently writing my honors thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. More details about the thesis can be found [here](https://morphismz.github.io/publication/2023-03-01-eh-and-hopf).
 
-I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. So far I have added a few transport lemmas and some operations on dependent paths. I have also added some mechanics for working with suspensions and formalized part of the suspension loop space adujunction. There is a little more ways to go to finish the suspension loop space adjunction. 
+I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. So far I have added a few [transport lemmas](https://github.com/UniMath/agda-unimath/pull/364) and some [operations on dependent paths](https://github.com/UniMath/agda-unimath/pull/369). I have also added [some mechanics for working with suspensions](https://github.com/UniMath/agda-unimath/pull/386) (as well as [this](https://github.com/UniMath/agda-unimath/pull/370)) and [formalized part of the suspension loop space adujunction](https://github.com/UniMath/agda-unimath/pull/396). There is a little more ways to go to finish the suspension loop space adjunction. 
 
 I hope to enter into a mathematics Ph.D. program in Fall 2023.
 
