@@ -1,5 +1,5 @@
 ---
-title: 'Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory'
+title: "Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory"
 collection: publications
 permalink: /publications/2023-03-01-eh-and-hopf
 excerpt: 'This is my undergraduate honors thesis. It aims to prove that the Eckmann-Hilton path can be used to construct a generator of $\pi_3(\mathbb{S}^2)$'.
