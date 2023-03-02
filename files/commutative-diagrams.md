@@ -49,11 +49,6 @@ excerpt: "a linked list of commutative diagrams appearing in my Honors Thesis *E
 
 
 
-
-
-
-
-
 % https://q.uiver.app/?q=WzAsNSxbMCwwLCJwIFxcY29tcCBxIl0sWzAsMiwicCBcXGNvbXAgcSciXSxbMiwyLCJwJyBcXGNvbXAgcSciXSxbMiwwLCIocCcgXFxjb21wIHEpIl0sWzEsMSwiKFxcY29obCB7XFxiYXAgLCBcXGFwfSkgXFxjb21wIChcXGNvaHIge1xcYmFwICwgXFxhcH0pXFxpbnYiXSxbMCwxLCIocCBcXGNvbXAgLSkoXFxiZXRhKSIsMix7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwyLCJcXGhhcCgoLVxcY29tcCAtKShcXGFscGhhKSkocScpIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDMsIlxcaGFwICgoLSBcXGNvbXAgLSkoXFxhbHBoYSkpKHEpIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFszLDIsIihwJyBcXGNvbXAgLSkoXFxiZXRhKSIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&macro_url=morphismz.github.io%2Ffiles%2Flatex-macros.txt
 \[\begin{tikzcd}
 	{p \comp q} && {(p' \comp q)} \\
