@@ -16,13 +16,13 @@ My interests in mathematics include higher category theory, homotopy theory, the
 
 I am currently writing my honors thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The tentative title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. I aim to write an elementary proof in the language of HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. More details about the thesis can be found [here](https://morphismz.github.io/publications/2023-03-01-eh-and-hopf).
 
-I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. So far I have added a few [transport lemmas](https://github.com/UniMath/agda-unimath/pull/364) and some [operations on dependent paths](https://github.com/UniMath/agda-unimath/pull/369). I have also added [some mechanics for working with suspensions](https://github.com/UniMath/agda-unimath/pull/386) (as well as [this](https://github.com/UniMath/agda-unimath/pull/370)) and [formalized part of the suspension loop space adujunction](https://github.com/UniMath/agda-unimath/pull/396). There is a little more ways to go to finish the suspension loop space adjunction. 
+I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository.
 
 I hope to enter into a mathematics Ph.D. program in Fall 2023.
 
 Philosophy
 ======
-I am currently the president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club). I think it is vital that *everyone* learn at least a little bit of philosophy since it helps us all [become better people](https://en.wikipedia.org/wiki/Ethics), [become more rational](https://plato.stanford.edu/entries/epistemology/), and [understand what's going on around us](https://plato.stanford.edu/entries/metaphysics/). Philosophy is also an [integral part of the foundations of mathematics](https://plato.stanford.edu/entries/philosophy-mathematics/).
+I am currently the president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club).
 
 My interests in philosophy are primarily in metaphysics, philosophy of language, and the philosophy of mathematics. My favorite philosophical text is Saul Kripke's *Naming and Necessity*. I also particularly like "What Numbers Could Not Be" by Paul Benacerraf. 
 
