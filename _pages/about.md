@@ -16,7 +16,7 @@ My interests in mathematics include higher category theory, homotopy theory, the
 
 I am currently writing my honors thesis under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. In the thesis I develop an elementary proof in the language of HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. More details about the thesis can be found [here](https://morphismz.github.io/publications/2023-03-01-eh-and-hopf).
 
-I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. Though I am currently bogged down with writing my thesis in latex (formatting commutative diagrams in latex is fun, I tell myself &#85434970656948;), I aim to formalize my honors thesis in agda.
+I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. Though I am currently bogged down with writing my thesis in latex (formatting commutative diagrams in latex is fun, I tell myself &#x1FAE0;), I aim to formalize my honors thesis in agda.
 
 I hope to enter into a mathematics Ph.D. program in Fall 2023.
 
