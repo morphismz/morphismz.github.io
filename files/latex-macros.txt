@@ -13,6 +13,7 @@
 \newcommand{\isequiv}{\mathsf{is}\text{-}\mathsf{equiv}}
 \newcommand{\fib}[2]{\mathsf{fib}_{#1}(#2)}
 
+
 \newcommand{\eqsq}[2]{=^{#1^2}_{#2}}
 
 	% Sigma Types
@@ -82,6 +83,7 @@
 \newcommand{\sphone}{\mathbb{S}^1}
 \newcommand{\bone}{\mathsf{b}_1}
 \newcommand{\loopone}{\mathsf{loop}}
+\newcommand{\Lhtpy}{\mathsf{L}}
 
 \newcommand{\sphtwo}{\mathbb{S}^2}
 \newcommand{\Ntwo}{\mathsf{N}_2}
@@ -102,7 +104,10 @@
 \newcommand{\Htot}[1]{\sum_{#1 : \sphtwo} \Hfam (#1)}
 \newcommand{\hpf}{\mathsf{hpf}}
 
+\newcommand{\trfibtwo}{\trsq {\fibfam}(\surftwo)}
+
 \newcommand{\fibfam}{\mathsf{fib}}
+\newcommand{\fibsq}{(\mathsf{fib})^2}
 \newcommand{\fibstar}{\mathsf{fib}^*}
 \newcommand{\fibstarsq}{(\mathsf{fib}^*)^2}
 \newcommand{\fibtot}[1]{\sum_{#1 : \sphtwo} \fibfam (#1)}
@@ -121,6 +126,9 @@
 \newcommand{\rinv}[1]{\mathsf{r}\text{-}\mathsf{inv}_{#1}}
 \newcommand{\linv}[1]{\mathsf{l}\text{-}\mathsf{inv}_{#1}}
 \newcommand{\natrunit}[1]{\mathsf{nat}\text{-}\mathsf{r}\text{-}\mathsf{unit}_{#1}}
+
+\newcommand{\invinv}{\mathsf{inv}\text{-}\mathsf{inv}}
+
 \newcommand{\runit}[1]{\mathsf{r}\text{-}\mathsf{unit}_{#1}}
 \newcommand{\lunit}[1]{\mathsf{l}\text{-}\mathsf{unit}_{#1}}
 \newcommand{\natlunit}[1]{\mathsf{nat}\text{-}\mathsf{l}\text{-}\mathsf{unit}_{#1}}
