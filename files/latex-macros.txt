@@ -78,6 +78,8 @@
 \newcommand{\EH}{\mathsf{EH}}
 \newcommand{\eh}{\mathsf{eh}}
 
+\newcommand{\diag}{\mathsf{diag}}
+
 % Spheres
 
 \newcommand{\sphone}{\mathbb{S}^1}
