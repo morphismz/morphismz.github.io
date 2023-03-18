@@ -18,8 +18,6 @@ I am currently writing my honors thesis under the direction of [Professor Jonath
 
 I also like coding up mathematics when I get the chance. I am a contributor of the agda-unimath repository. Ultimately I aim to formalize my honors thesis in agda.
 
-I hope to enter into a mathematics Ph.D. program in Fall 2023.
-
 Philosophy
 ======
 I am currently the president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club).
