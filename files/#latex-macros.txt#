@@ -1,7 +1,5 @@
 % Formating
 
-\newcommand{\dbrak}[1]{ [ \! [ #1 ] \! ]}
-
 \newcommand{\tab}{\hspace{.5in}}
 \newcommand{\dash}{\text{-}}
 \newcommand{\Gl}{\lambda}
@@ -145,7 +143,6 @@
 \newcommand{\coh}[1]{\mathsf{coh}_{#1}}
 \newcommand{\cohl}[1]{\mathsf{l}\text{-}\mathsf{coh}_{#1}}
 \newcommand{\cohr}[1]{\mathsf{r}\text{-}\mathsf{coh}_{#1}}
-
 
 \newcommand{\apconcat}{\mathsf{ap}\text{-}\mathsf{concat}}
 \newcommand{\apcomp}{\mathsf{ap}\text{-}\mathsf{comp}}
