@@ -1,20 +1,28 @@
 % Formating
 
 \newcommand{\dbrak}[1]{ [ \! [ #1 ] \! ]}
-
+\newcommand{\xto}{\xrightarrow}
 \newcommand{\tab}{\hspace{.5in}}
 \newcommand{\dash}{\text{-}}
 \newcommand{\Gl}{\lambda}
-
+\newcommand{\im}{\text{im}}
 % Types
 
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
 \newcommand{\bool}{\mathsf{Bool}}
 
 \newcommand{\isequiv}{\mathsf{is}\text{-}\mathsf{equiv}}
 \newcommand{\fib}[2]{\mathsf{fib}_{#1}(#2)}
+\newcommand{\famwsec}{\mathsf{fam}\text{-}\mathsf{w}\text{-}\mathsf{sec}}
+\newcommand{\equivfam}{\mathsf{equiv}\text{-}\mathsf{fam}}
 
+\newcommand{\ev}{\mathsf{ev}}
+\newcommand{\uniprop}{\mathsf{universal}\text{-}\mathsf{property}}
+\newcommand{\up}{\mathsf{up}}
 
 \newcommand{\eqsq}[2]{=^{#1^2}_{#2}}
 
@@ -32,6 +40,8 @@
 
 % Functions
 
+\newcommand{\triv}{\mathsf{triv}}
+
 \newcommand{\Id}{\mathsf{id}}
 \newcommand{\id}{\mathsf{id}}
 \newcommand{\pr}{\mathsf{pr}}
@@ -41,6 +51,7 @@
 \newcommand{\hrefl}[1]{\mathsf{refl}\text{-}\mathsf{htpy}_{#1}}
 
 \newcommand{\const}{\mathsf{const}}
+\newcommand{\whisk}[1]{\mathsf{Whisker_{#1}}}
 
 \newcommand{\shf}{\mathsf{shift}}
 \newcommand{\unshf}{\mathsf{unshift}}
