@@ -190,7 +190,7 @@ collections:
     permalink: /:collection/:path/
   projects:
     output: true
-    permalink: /:collection/:path/    
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -252,7 +252,7 @@ defaults:
       path: ""
       type: project
     values:
-      layout: single
+      layout: default
       author_profile: true
       share: true
 
