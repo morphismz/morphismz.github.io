@@ -1,0 +1,21 @@
+\documentclass[12pt]{amsart}
+
+% formatting packages
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage[parfill]{parskip}
+
+% math packages
+\usepackage{amsmath, amssymb, amsthm, mathrsfs}
+\usepackage{MnSymbol}
+\usepackage{tikz, tikz-cd}
+
+% formating
+\doublespacing
+\pagestyle{fancy}
+
+% bigcdot
+\usepackage{graphicx}

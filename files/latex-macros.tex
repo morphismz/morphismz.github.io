@@ -1,0 +1,232 @@
+% Formating
+
+\newcommand{\dbrak}[1]{ [ \! [ #1 ] \! ]}
+\newcommand{\xto}{\xrightarrow}
+\newcommand{\tab}{\hspace{.5in}}
+\newcommand{\dash}{\text{-}}
+\newcommand{\Gl}{\lambda}
+\newcommand{\im}{\text{im}}
+% Types
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\bool}{\mathsf{Bool}}
+
+\newcommand{\isequiv}{\mathsf{is}\text{-}\mathsf{equiv}}
+\newcommand{\fib}[2]{\mathsf{fib}_{#1}(#2)}
+\newcommand{\famwsec}{\mathsf{fam}\text{-}\mathsf{w}\text{-}\mathsf{sec}}
+\newcommand{\equivfam}{\mathsf{equiv}\text{-}\mathsf{fam}}
+
+\newcommand{\ev}{\mathsf{ev}}
+\newcommand{\uniprop}{\mathsf{universal}\text{-}\mathsf{property}}
+\newcommand{\up}{\mathsf{up}}
+
+\newcommand{\eqsq}[2]{=^{#1^2}_{#2}}
+
+	% Sigma Types
+
+\newcommand{\tot}[3]{\sum_{#1 : #2} #3 #1}
+\newcommand{\totparens}[3]{\sum_{#1 : #2} #3 (#1)}
+\newcommand{\totdir}[3]{\sum_{#1 : #2} #3n}
+
+	%Pi Types
+
+\newcommand{\pitype}[3]{\prod_{#1 : #2} #3 #1}
+\newcommand{\pitypeparens}[3]{\prod_{#1 : #2} #3 (#1)}
+\newcommand{\pitypedir}[3]{\prod_{#1 : #2} #3}
+
+% Functions
+
+\newcommand{\triv}{\mathsf{triv}}
+
+\newcommand{\Id}{\mathsf{id}}
+\newcommand{\id}{\mathsf{id}}
+\newcommand{\pr}{\mathsf{pr}}
+\newcommand{\ua}{\mathsf{ua}}
+\newcommand{\hap}{\mathsf{happly}}
+\newcommand{\fe}{\mathsf{fe}}
+\newcommand{\hrefl}[1]{\mathsf{refl}\text{-}\mathsf{htpy}_{#1}}
+
+\newcommand{\const}{\mathsf{const}}
+\newcommand{\whisk}[1]{\mathsf{Whisker_{#1}}}
+
+\newcommand{\shf}{\mathsf{shift}}
+\newcommand{\unshf}{\mathsf{unshift}}
+
+
+	% Functions Related to Paths
+
+	%making comp
+	\makeatletter
+	\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+	\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+	\makeatother
+
+\newcommand{\comp}{\ \bigcdot \ }
+\newcommand{\compd}{\ \bigcdot_d \ }
+\newcommand{\comph}{\ \bigcdot_h \ }
+
+\newcommand{\concat}{\ \bigcdot \ }
+\newcommand{\concatd}{\ \bigcdot_d \ }
+\newcommand{\concath}{\ \bigcdot_h \ }
+
+\newcommand{\tr}[1]{\mathsf{tr}^{#1}}
+\newcommand{\ap}{\mathsf{ap}}
+\newcommand{\bap}{\mathsf{bin}\text{-}\mathsf{ap}}
+\newcommand{\apd}{\mathsf{apd}}
+\newcommand{\lift}{\mathsf{lift}}
+\newcommand{\trsq}[1]{\mathsf{tr}^{(#1)^2}}
+\newcommand{\trconcat}[1]{\mathsf{tr}\text{-}\mathsf{concat}_{#1}}
+\newcommand{\nathtpy}{\mathsf{nat}\text{-}\mathsf{htpy}}
+\newcommand{\nat}{\mathsf{nat}\text{-}}
+\newcommand{\natdhtpy}{\mathsf{nat}\text{-}\mathsf{htpyd}}
+
+\newcommand{\htpynat}{\mathsf{nat}\text{-}\mathsf{htpy}}
+\newcommand{\htpynatd}{\mathsf{nat}\text{-}\mathsf{htpyd}}
+
+
+\newcommand{\EH}{\mathsf{EH}}
+\newcommand{\eh}{\mathsf{eh}}
+
+\newcommand{\diag}{\mathsf{diag}}
+
+% Spheres
+
+\newcommand{\sphone}{\mathbb{S}^1}
+\newcommand{\bone}{\mathsf{b}_1}
+\newcommand{\loopone}{\mathsf{loop}}
+\newcommand{\Lhtpy}{\mathsf{L}}
+
+\newcommand{\sphtwo}{\mathbb{S}^2}
+\newcommand{\Ntwo}{\mathsf{N}_2}
+\newcommand{\Stwo}{\mathsf{S}_2}
+\newcommand{\meridtwo}{\mathsf{merid}_2}
+\newcommand{\surftwo}{\mathsf{surf}_2}
+
+\newcommand{\trsqtwo}{\trsq{\fibfam} (\surftwo)}
+
+
+\newcommand{\sphthree}{\mathbb{S}^3}
+\newcommand{\Nthree}{\mathsf{N}_3}
+\newcommand{\Sthree}{\mathsf{S}_3}
+\newcommand{\meridthree}{\mathsf{merid}_3}
+\newcommand{\surfthree}{\mathsf{surf}_3}
+
+\newcommand{\Hfam}{\mathcal{H}}
+\newcommand{\Htot}[1]{\sum_{#1 : \sphtwo} \Hfam (#1)}
+\newcommand{\hpf}{\mathsf{hpf}}
+
+\newcommand{\trfibtwo}{\trsq {\fibfam}(\surftwo)}
+
+\newcommand{\fibfam}{\mathsf{fib}}
+\newcommand{\fibsq}{(\mathsf{fib})^2}
+\newcommand{\fibstar}{\mathsf{fib}^*}
+\newcommand{\fibstarsq}{(\mathsf{fib}^*)^2}
+\newcommand{\fibtot}[1]{\sum_{#1 : \sphtwo} \fibfam (#1)}
+
+% Paths
+
+  % Operations on paths
+
+\newcommand{\inv}{^{-1}}
+\newcommand{\hrinv}{^{\ap(-1)}}
+
+\newcommand{\invd}{^{-1^{\mathsf{d}}}}
+
+	% Coherence paths
+
+\newcommand{\rinv}[1]{\mathsf{r}\text{-}\mathsf{inv}_{#1}}
+\newcommand{\linv}[1]{\mathsf{l}\text{-}\mathsf{inv}_{#1}}
+\newcommand{\natrunit}[1]{\mathsf{nat}\text{-}\mathsf{r}\text{-}\mathsf{unit}_{#1}}
+
+\newcommand{\invinv}{\mathsf{inv}\text{-}\mathsf{inv}}
+
+\newcommand{\runit}[1]{\mathsf{r}\text{-}\mathsf{unit}_{#1}}
+\newcommand{\lunit}[1]{\mathsf{l}\text{-}\mathsf{unit}_{#1}}
+\newcommand{\natlunit}[1]{\mathsf{nat}\text{-}\mathsf{l}\text{-}\mathsf{unit}_{#1}}
+\newcommand{\rinvd}[1]{\mathsf{r}\text{-}\mathsf{invd}_{#1}}
+\newcommand{\linvd}[1]{\mathsf{l}\text{-}\mathsf{invd}_{#1}}
+\newcommand{\runitd}[1]{\mathsf{r}\text{-}\mathsf{unitd}_{#1}}
+\newcommand{\lunitd}[1]{\mathsf{l}\text{-}\mathsf{unitd}_{#1}}
+\newcommand{\oneover}[2]{1_{#1_* #2}}
+
+\newcommand{\coh}[1]{\mathsf{coh}_{#1}}
+\newcommand{\cohl}[1]{\mathsf{l}\text{-}\mathsf{coh}_{#1}}
+\newcommand{\cohr}[1]{\mathsf{r}\text{-}\mathsf{coh}_{#1}}
+
+
+\newcommand{\apconcat}{\mathsf{ap}\text{-}\mathsf{concat}}
+\newcommand{\apcomp}{\mathsf{ap}\text{-}\mathsf{comp}}
+\newcommand{\apinv}{\mathsf{ap}\text{-}\mathsf{inv}}
+\newcommand{\apid}{\mathsf{ap}\text{-}\mathsf{id}}
+\newcommand{\apru}{\mathsf{ap}\text{-}\mathsf{ru}}
+\newcommand{\aplu}{\mathsf{ap}\text{-}\mathsf{lu}}
+\newcommand{\apEH}{\mathsf{ap}\text{-}\mathsf{EH}}
+
+\newcommand{\natapconcat}{\mathsf{nat}\text{-}\mathsf{ap}\text{-}\mathsf{concat}}
+\newcommand{\natapinv}{\mathsf{nat}\text{-}\mathsf{ap}\text{-}\mathsf{inv}}
+
+\newcommand{\natrinv}{\mathsf{nat}\text{-}\mathsf{r}\text{-}\mathsf{inv}}
+\newcommand{\natlinv}{\mathsf{nat}\text{-}\mathsf{l}\text{-}\mathsf{inv}}
+
+\newcommand{\bapconcat}{\mathsf{bap}\text{-}\mathsf{concat}}
+\newcommand{\bapcomp}{\mathsf{bap}\text{-}\mathsf{comp}}
+\newcommand{\bapinv}{\mathsf{bap}\text{-}\mathsf{inv}}
+\newcommand{\bapswap}{\mathsf{bap}\text{-}\mathsf{swap}}
+
+\newcommand{\pathswap}{\mathsf{path}\text{-}\mathsf{swap}}
+
+\newcommand{\compap}{\mathsf{ap}\text{-}\mathsf{comp}}
+\newcommand{\idap}{\mathsf{ap}\text{-}\mathsf{id}}
+\newcommand{\compbap}{\mathsf{bap}\text{-}\mathsf{comp}}
+
+\newcommand{\lunithtpy}{\mathsf{l}\text{-}\mathsf{unit}}
+\newcommand{\runithtpy}{\mathsf{r}\text{-}\mathsf{unit}}
+
+\newcommand{\lunitloop}{\mathsf{l}\text{-}\mathsf{unit}\text{-}\Omega^2}
+\newcommand{\runitloop}{\mathsf{r}\text{-}\mathsf{unit}\text{-}\Omega^2}
+
+% Quiver
+% *** quiver ***
+% A package for drawing commutative diagrams exported from https://q.uiver.app.
+%
+% This package is currently a wrapper around the `tikz-cd` package, importing necessary TikZ
+% libraries, and defining a new TikZ style for curves of a fixed height.
+%
+% Version: 1.2.2
+% Authors:
+% - varkor (https://github.com/varkor)
+% - AndréC (https://tex.stackexchange.com/users/138900/andr%C3%A9c)
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{quiver}[2021/01/11 quiver]
+
+% `tikz-cd` is necessary to draw commutative diagrams.
+\RequirePackage{tikz-cd}
+% `amssymb` is necessary for `\lrcorner` and `\ulcorner`.
+\RequirePackage{amssymb}
+% `calc` is necessary to draw curved arrows.
+\usetikzlibrary{calc}
+% `pathmorphing` is necessary to draw squiggly arrows.
+\usetikzlibrary{decorations.pathmorphing}
+
+% A TikZ style for curved arrows of a fixed height, due to AndréC.
+\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
+    .. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    .. (\tikztotarget)\tikztonodes}},
+    settings/.code={\tikzset{quiver/.cd,#1}
+        \def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
+    quiver/.cd,pos/.initial=0.35,height/.initial=0}
+
+% TikZ arrowhead/tail styles.
+\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
+\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
+\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
+% TikZ arrow styles.
+\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
+
+\endinput
