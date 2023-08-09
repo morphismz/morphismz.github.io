@@ -11,7 +11,10 @@ main:
         
 #  - title: "Blog Posts"
 #    url: /year-archive/
-    
+
+  - title: "Projects"
+     url: /projects/
+
   - title: "CV"
     url: /cv/
 
