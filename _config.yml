@@ -248,9 +248,9 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type:
+      type: project
     values:
-      layout: page
+      layout: single
       author_profile: true
       share: true
 
