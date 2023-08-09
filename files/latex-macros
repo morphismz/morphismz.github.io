@@ -14,7 +14,7 @@
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\bool}{\mathsf{Bool}}
-
+\newcommand{\dscnt}[1]{\mathsf{Dscnt}_{#1}}
 \newcommand{\isequiv}{\mathsf{is}\text{-}\mathsf{equiv}}
 \newcommand{\fib}[2]{\mathsf{fib}_{#1}(#2)}
 \newcommand{\famwsec}{\mathsf{fam}\text{-}\mathsf{w}\text{-}\mathsf{sec}}
