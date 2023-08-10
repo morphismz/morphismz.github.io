@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my [CV](https://morphismz.github.io/files/cv.pdf) as a pdf. This was last updated 2023-06-20.
+You can download my [CV](https://morphismz.github.io/files/baker-raymond-cv.pdf) as a pdf. This was last updated 2023-08-08.
