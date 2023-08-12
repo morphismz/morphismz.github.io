@@ -4,7 +4,7 @@ collection: teaching
 type: "Private Tutoring"
 permalink: /teaching/2023-private-practice
 venue: "Private Practice"
-date: `Sys.Date()`
+date: "`r Sys.Date()`"
 location: "Boulder, USA"
 ---
 
