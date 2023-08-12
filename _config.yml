@@ -72,10 +72,10 @@ social:
 
 
 # Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+analytics: 
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          : "5991344916"
 
 
 # Site Author
@@ -88,7 +88,7 @@ author:
   pubmed           :
   googlescholar    :
   email            : "raymondgarethbaker@gmail.com"
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Raymond-Baker-3"
   uri              :
   bitbucket        :
   codepen          :
