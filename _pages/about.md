@@ -29,7 +29,7 @@ Mathematics
 ======
 My interests in mathematics include higher category theory and homotopy theory, the foundations of mathematics and formal verification, as well as bringing these subjects closer together. I am particularly interested by synthetic approaches to higher category theory and homotopy theory. I favor univalent approaches to the foundations of mathematics and I hope to help advance their prominence in the mathematical community by developing mathematics Homotopy Type Theory.
 
-I succesfully defended my honors thesis in Spring 2023, which was written under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. In the thesis I develop an elementary proof in the language of book HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. I presented the results of this thesis at the [Carnegie Mellon University's Internation Confrence of Homotopy Type Theory 2023](https://hott.github.io/HoTT-2023/).
+I succesfully defended my honors thesis in Spring 2023, which was written under the direction of [Professor Jonathan Wise](http://math.colorado.edu/~jonathan.wise/index.html). The title of the thesis is *Eckmann-Hilton and The Hopf Fibration in Homotopy Type Theory*. In the thesis I develop an elementary proof in the language of book HoTT demonstrating that the Eckmann-Hilton argument can be used to construct a generator of $\pi_3(\mathbb{S^2})$. I presented the results of this thesis at the [Carnegie Mellon University's Internation Confrence of Homotopy Type Theory 2023](https://hott.github.io/HoTT-2023/). I am currently working to formalize the results of my thesis. For more on this, please see the following [page](https://morphismz.github.io/projects/2023-eh-hopf).
 
 agda-unimath
 ======
@@ -39,8 +39,14 @@ I am a contributor to the [agda-unimath repository](https://unimath.github.io/ag
 
 - Suspension of a type: The homotopy theoretic construction of suspension can be defined internal to the type system of Agda. I have helped to formalize some propreties of the suspension of a type, including [a characterization of identifications in the type of suspension structures](https://unimath.github.io/agda-unimath/synthetic-homotopy-theory.suspensions-of-types.html#4783), a [proof suspsensions have the universal property excpected of them](https://unimath.github.io/agda-unimath/synthetic-homotopy-theory.suspensions-of-types.html#11043), definitions of [the unit and counit of the suspension loop space adjunction](https://unimath.github.io/agda-unimath/synthetic-homotopy-theory.suspensions-of-types.html#15436), and the [equivalence of the suspension loop space adjunction](https://unimath.github.io/agda-unimath/synthetic-homotopy-theory.suspensions-of-types.html#18007).
 
+I am curruently working on formalizing the main results of my honors thesis using the agda-unimath library. You can read more about this project [here](https://morphismz.github.io/projects/2023-eh-hopf). 
+
 Philosophy
 ======
 In my junior and senior year at CU, I was president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club). As president I worked to schedule intersting events and speakers as well as make the philosophy club a more inclusive enviroment.
 
 My interests in philosophy are primarily in metaphysics, philosophy of language, and the philosophy of mathematics. My favorite philosophical text is Saul Kripke's *Naming and Necessity*.
+
+Teaching and Tutoring
+======
+I have over three years of teaching and tutoring experience, including private tutoring and leading in person classes. I am currently working as a private tutor in the greater Boulder area. I subscribe to an active learing philosophy, focusing on giving students the tools to take the reigns the learing process. I help students build problem solving skills, abstract reasoning ability, and practice critical thinking through the medium of mathematics. I also help students with advanced mathematics cirriculum. For more on my teaching experience, please see the [teaching page](https://morphismz.github.io/teaching/).
