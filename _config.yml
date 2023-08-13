@@ -251,7 +251,7 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: publications
+      type: projects
     values:
       layout: single
       author_profile: true
