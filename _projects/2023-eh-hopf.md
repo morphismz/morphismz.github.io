@@ -3,7 +3,7 @@ title: "Formalizing Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theor
 collection: projects
 permalink: /projects/2023-eh-hopf
 excerpt:
-date:
+date: 2023-12-31
 venue:
 paperurl:
 citation:
