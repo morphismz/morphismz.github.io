@@ -3,8 +3,8 @@ title: "Honors Thesis: Eckmann-Hilton and the Hopf Fibration in Homotopy Type Th
 collection: publications
 permalink: /publication/2023-04-06-honors-thesis
 excerpt: 'My honors thesis'
-date: 2010-10-01
-venue: 2023-04-06
+date: 2023-04-06
+venue: 
 paperurl:
 citation:
 ---
