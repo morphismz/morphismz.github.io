@@ -4,4 +4,4 @@ title: "Test"
 permalink: /test/
 ---
 
-TEST
+TEST this is a TEST
