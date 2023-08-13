@@ -253,7 +253,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: splash
+      layout: single
       author_profile: true
       share: true
       comments: true
