@@ -1,24 +1,12 @@
 ---
 permalink: /
-title: "Mathematics and Philosophy Student, Baker and Confection Maker"
+title: "Mathematics, Coding, Education"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D9DVR2HZM8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D9DVR2HZM8');
-</script>
-
 
 I graduated summa cum laude from the University of Colorado, Boulder with a bachelors of arts in mathematics and in philosophy. For my honors, I defendended a thesis in the mathematics department titled “Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory”. I subsequently presented the results of my thesis at the [Second International Conference on Homotopy Type Theory](https://hott.github.io/HoTT-2023/) at Carnegie Mellon University.
 
