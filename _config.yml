@@ -251,12 +251,12 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: project
+      type: publications
     values:
       layout: single
       author_profile: true
       share: true
-
+      comments: true
 
 # Sass/SCSS
 sass:
