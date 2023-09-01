@@ -10,6 +10,6 @@ Since defending the thesis, and presenting the results at HoTT-2023, I have made
 
 <object data="https://morphismz.github.io/files/2023-eh-hopf.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://morphismz.github.io/files/2023-eh-hopf.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+        <p>This browser does not support PDFs. Please download the PDF to view it. </p>
     </embed>
 </object>
