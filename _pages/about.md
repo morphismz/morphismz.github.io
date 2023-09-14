@@ -12,6 +12,14 @@ I graduated summa cum laude from the University of Colorado, Boulder with a bach
 
 Within mathematics, I have an interest in higher category theory and homotopy theory, in type theory and the foundations of math, and in connections between these subjects and computer science. In particular, I am fascinated by functional programming and the formal verification of proofs and programs. As an application of this, I am a contributor to the [agda-unimath repository](https://unimath.github.io/agda-unimath/), a collaborative and sprawling formal verification project written in Agda, a dependently typed pure functional programming language.
 
+Teaching and Tutoring
+======
+I am currently the lead mathematics instructor at Temple Grandin School, serving students with Asperger's Syndrome and similar learning profiles.
+
+I have over three years of teaching and tutoring experience, including experience with private tutoring, leading in person classes of up to 30 students, and more. I am currently working as a private tutor in the greater Boulder area, serving student both locally and online. If you or someone you know is interested in tutoring services, please don't hesitate to reach out. You can find my email in the sidebar.
+
+I subscribe to an active learing philosophy, focusing on giving students the tools to take the learning process into their own hands and make it an enjoyable experience. I help students build problem solving skills, hone abstract reasoning ability, and practice critical thinking techniques. I have experience teaching and tutoring a wide range of mathematics cirriculum, covering everything from middle school level to advanced college mathematics. For more on my teaching experience, please see the [teaching page](https://morphismz.github.io/teaching/).
+
 
 Mathematics
 ======
@@ -34,9 +42,3 @@ Philosophy
 In my junior and senior year at CU, I was president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club). As president I worked to schedule intersting events and speakers as well as make the philosophy club a more inclusive enviroment.
 
 My interests in philosophy are primarily in metaphysics, philosophy of language, and the philosophy of mathematics. My favorite philosophical text is Saul Kripke's *Naming and Necessity*.
-
-Teaching and Tutoring
-======
-I have over three years of teaching and tutoring experience, including experience with private tutoring, leading in person classes of up to 30 students, and more. I am currently working as a private tutor in the greater Boulder area, serving student both locally and online. If you or someone you know is interested in tutoring services, please don't hesitate to reach out. You can find my email in the sidebar.
-
-I subscribe to an active learing philosophy, focusing on giving students the tools to take the learning process into their own hands and make it an enjoyable experience. I help students build problem solving skills, hone abstract reasoning ability, and practice critical thinking techniques. I have experience teaching and tutoring a wide range of mathematics cirriculum, covering everything from middle school level to advanced college mathematics. For more on my teaching experience, please see the [teaching page](https://morphismz.github.io/teaching/).
