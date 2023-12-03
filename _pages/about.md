@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<a rel="me" href="https://mathstodon.xyz/@isAdisplayName">Mastodon</a>
 I graduated summa cum laude from the University of Colorado, Boulder with a bachelors of arts in mathematics and in philosophy. For my honors, I defendended a thesis in the mathematics department titled “Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory”. I subsequently presented the results of my thesis at the [Second International Conference on Homotopy Type Theory](https://hott.github.io/HoTT-2023/) at Carnegie Mellon University.
 
 Within mathematics, I have an interest in higher category theory and homotopy theory, in type theory and the foundations of math, and in connections between these subjects and computer science. In particular, I am fascinated by functional programming and the formal verification of proofs and programs. As an application of this, I am a contributor to the [agda-unimath repository](https://unimath.github.io/agda-unimath/), a collaborative and sprawling formal verification project written in Agda, a dependently typed pure functional programming language.
