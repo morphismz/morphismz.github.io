@@ -31,6 +31,8 @@ agda-unimath
 ======
 I am a contributor to the [agda-unimath repository](https://unimath.github.io/agda-unimath/) repository, a large-cale (~ 250K lines of code) formal verification project that aims to "create an online encyclopedia of formalized mathematics containing an extensive curriculum of topics from a univalent point of view." A full acount of my contributions can be found [here](https://github.com/UniMath/agda-unimath/pulls?q=is%3Apr+is%3Aclosed+author%3Amorphismz). Here are some selected contributions:
 
+- The Eckmann-Hilton argumenent: I wrote the page on the [Eckmann-Hilton argument](https://unimath.github.io/agda-unimath/synthetic-homotopy-theory.eckmann-hilton-argument.html?highlight=eckmann#the-eckmann-hilton-argument).
+
 - Higher coherence theorems: Identifications (terms of the intensional identity type) behave like isomorphisms in an $\infty$-groupoid. They are thus subject to an infinite tower of coherences. I have formalized some coherences on 2-dimensional identifications, including:
   - [unit laws](https://unimath.github.io/agda-unimath/foundation.path-algebra.html#7502)
   - [inverse laws](https://unimath.github.io/agda-unimath/foundation.path-algebra.html#8603).
