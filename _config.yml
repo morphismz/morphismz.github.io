@@ -54,6 +54,7 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+mathstodon_site_verification : <a rel="me" href="https://mathstodon.xyz/@isAdisplayName">Mastodon</a>
 
 # Social Sharing
 twitter:
@@ -84,7 +85,7 @@ author:
   avatar           : "profile.jpg"
   bio              : "Math, Coding, Education"
   location         : "Boulder, CO, USA"
-  employer         : "CU Boulder"
+  employer         : "Temple Grandin School"
   pubmed           :
   googlescholar    :
   email            : "raymondgarethbaker@gmail.com"
