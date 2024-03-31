@@ -10,7 +10,9 @@ redirect_from:
 
 I graduated summa cum laude from the University of Colorado, Boulder with a bachelors of arts in mathematics and in philosophy. For my honors, I defended a thesis in the mathematics department titled “Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory”. I have presented the results of my thesis at multiple international math confrences, which you can find in the Talks section.
 
-Within mathematics, I have a focus in higher category theory and homotopy theory, in type theory and the foundations of math, and in connections between these subjects and computer science, such as functional programming and the formal verification of proofs and programs. I also have an interest in cryptography, combinatorics and probability theory. I enjoy writting python programs implementing ideas from these subjects.
+Within mathematics, I have a focus in higher category theory and homotopy theory, in type theory and the foundations of math, and in connections between these subjects and computer science, such as functional programming and the formal verification of proofs and programs.
+
+I also have an interest in mathematical cryptography, combinatorics and probability theory. I enjoy writing python programs implementing ideas from these subjects. You can find some of these projects on my github, or under the projects section of this website.
 
 As an application of my focus in functional programming, I am a contributor to the [agda-unimath repository](https://unimath.github.io/agda-unimath/), an encyclopedia of formalized mathematics and certified programs. This is a collaborative and sprawling formal verification project comprising over 300K lines of code. Written in Agda, a dependently typed pure functional programming language, agda-unimath uses a variant of Martin L\"of Type Theory combined with univalence and postulated higher inductive types to provide a foundations for mathematics. I am currently working to formalize the results of my thesis in the agda-unimath repository.
 
@@ -38,7 +40,7 @@ I am curruently working on formalizing the main results of my honors thesis usin
 
 Philosophy
 ======
-In my junior and senior year at CU, I was president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club). As president I worked to schedule intersting events and speakers as well as make the philosophy club a more inclusive enviroment.
+In my junior and senior year at CU, I was president of the [CU Boulder Undergraduate Philosophy Club](https://www.colorado.edu/philosophy/events/undergraduate-philosophy-club). As president I scheduled interesting events, including faculty talks and club discussions, and worked to make the philosophy club a more inclusive enviroment by working with the Minorities and Philosophy program.
 
 My interests in philosophy are primarily in metaphysics, philosophy of language, and the philosophy of mathematics. My favorite philosophical text is Saul Kripke's *Naming and Necessity*.
 
