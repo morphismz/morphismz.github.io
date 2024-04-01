@@ -1,3 +1,11 @@
+---
+title: "Tom Jack's Cubical Proof that F is S1"
+permalink: /files/TomJacksHITisS1
+---
+
+Tom Jack's cubical code establising that the HIT representing the fiber is S1. Note that Jack calls the HIT X instead of F, as I do in the talk.
+
+```agda
 {-# OPTIONS --cubical #-}
 
 module BakerCircle where
@@ -356,3 +364,4 @@ data X : Type where
 
 goal : X ≃ S¹
 goal = isoToEquiv (iso φ ψ φψ ψφ)
+```
