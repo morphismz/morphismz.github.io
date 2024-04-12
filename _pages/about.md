@@ -13,7 +13,6 @@ redirect_from:
 I recently gave a talk at HoTT/UF2024 hosted by KU Leuven. You can find details about the talk, along with a recording, under the talks section on [the following page](https://morphismz.github.io/talks/2024-04-03-hottuf).
 
 Bio
-
 ======
 
 I graduated summa cum laude from the University of Colorado, Boulder with a bachelors of arts in mathematics and in philosophy. For my honors, I defended a thesis in the mathematics department titled “Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory”. I have presented the results of my thesis at multiple international math confrences, which you can find in the Talks section.
