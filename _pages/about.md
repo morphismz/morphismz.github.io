@@ -54,5 +54,3 @@ My interests in philosophy are primarily in metaphysics, philosophy of language,
 Teaching and Tutoring
 ======
 I am currently the lead mathematics instructor at Temple Grandin School, serving students with Asperger's Syndrome and similar learning profiles.
-
-I have over three years of teaching and tutoring experience, including experience with private tutoring, leading in person classes of up to 30 students, and more. I am currently working as a private tutor in the greater Boulder area, serving student both locally and online. If you or someone you know is interested in tutoring services, please don't hesitate to reach out. You can find my email in the sidebar.
