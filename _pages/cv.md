@@ -15,4 +15,4 @@ redirect_from:
     </embed>
 </object>
 
-You can download my [CV](https://morphismz.github.io/files/baker-raymond-cv.pdf) as a pdf. This was last updated 2023-08-08.
+You can download my [CV](https://morphismz.github.io/files/baker-raymond-cv.pdf) as a pdf. This was last updated 2024-04-01.
