@@ -8,4 +8,4 @@ venue: CU Scholar
 paperurl:
 citation: 
 ---
-This paper is about Eckmann-Hilton and the the Hopf fibration. Since writing the thesis, the main proof has been much improved. For an up to date version of the proof, see the [associated projects page](https://morphismz.github.io/projects/2023-eh-hopf). 
+This paper is about Eckmann-Hilton and the the Hopf fibration. Since writing the thesis, the main proof has been much improved. For an up to date version of the proof, see the my [HoTT/UF2024 talk](https://morphismz.github.io/talks/2024-04-03-hottuf). 

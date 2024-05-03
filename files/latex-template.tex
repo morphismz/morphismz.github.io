@@ -1,0 +1,49 @@
+\input{~/morphismz.github.io/files/latex-preamble-article}
+
+\input{~/morphismz.github.io/files/latex-macros}
+
+\input{~/morphismz.github.io/files/latex-theorems}
+
+\lhead{} \chead{} \rhead{}
+
+\title{Eckmann-Hilton and the Hopf Fibration: an outline}
+\author{Raymond Baker}
+\date{}
+
+\begin{document}
+\maketitle
+%\tableofcontents
+
+\begin{theorem}
+
+  If everything is all right, then you're all wrong
+
+\end{theorem}
+
+\begin{proof}
+
+  The following is a diagram \cite{DIAG}:
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXGJ1bGxldCJdLFsyLDAsIlxcYnVsbGV0Il0sWzAsMiwiXFxidWxsZXQiXSxbMiwyLCJcXGJ1bGxldCJdLFswLDFdLFswLDJdLFsyLDNdLFsxLDNdXQ==
+\[\begin{tikzcd}
+	\bullet && \bullet \\
+	\\
+	\bullet && \bullet
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=1-1, to=3-1]
+	\arrow[from=1-3, to=3-3]
+	\arrow[from=3-1, to=3-3]
+\end{tikzcd}\]
+
+    So there you have it. $\qedhere$
+    
+\end{proof}
+
+\begin{thebibliography}{9}
+
+\bibitem{DIAG} Me, Myself, et. al. (2025) \emph{Diagrams are cool}, the Illuminati, https://q.uiver.app.
+
+\end{thebibliography}
+
+
+\end{document}
