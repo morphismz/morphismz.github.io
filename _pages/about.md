@@ -11,7 +11,9 @@ redirect_from:
 ### Updates
 <img src="{{site.url}}/images/eckmann-hilton-in-my-hopf-fibration.jpg" style="display: block; margin: auto;" />
 
-Don't believe me? Watch the talk to find out why! I recently gave a talk at HoTT/UF2024 hosted by KU Leuven. You can find details about the talk, along with a recording, under the talks section on [the following page](https://morphismz.github.io/talks/2024-04-03-hottuf).
+Don't believe me? Watch the talk to find out why!
+
+I recently gave a talk at HoTT/UF2024 hosted by KU Leuven. You can find details about the talk, along with a recording, under the talks section on [the following page](https://morphismz.github.io/talks/2024-04-03-hottuf).
 
 Bio
 ======
