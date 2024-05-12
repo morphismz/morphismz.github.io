@@ -1,9 +1,0 @@
-{% comment %}
-So I'll include here an outline of the current proof. You can also download this outline as a [pdf](https://morphismz.github.io/files/2023-eh-hopf.pdf).
-
-<object data="https://morphismz.github.io/files/2023-eh-hopf.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://morphismz.github.io/files/2023-eh-hopf.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it. </p>
-    </embed>
-</object>
-{% endcomment %}
