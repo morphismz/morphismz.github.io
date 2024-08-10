@@ -84,8 +84,8 @@ author:
   name             : "Raymond Baker"
   avatar           : "profile.jpg"
   bio              : "I am a mathematician and functional programmer."
-  location         : ""
-  employer         : ""
+  location         : 
+  employer         : 
   pubmed           :
   googlescholar    :
   email            : "raymondgarethbaker@gmail.com"
