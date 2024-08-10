@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mathematician | Functional Programmer"
+title: "Mathematician \| Functional Programmer"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
