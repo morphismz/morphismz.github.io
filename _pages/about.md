@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mathematics, Coding, Education"
+title: "Mathematician | Functional Programmer"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -17,16 +17,16 @@ I recently gave a talk at HoTT/UF2024 hosted by KU Leuven. You can find details 
 
 Bio
 ======
+I am a functional programmer and mathematician with a focus in category theory, type theory, and the application of these subjects to functional programming and the formal verification of proofs and programs. I have over two years of experience with Haskell and Haskell-like languages, dependently typed languages like Agda and Idris, and type-driven development. I am a contributor to the agda-unimath repository, an open source encyclopedia of formalized mathematics and certified programs. Written in Agda, an extension of Haskell with dependent types, agda-unimath comprises nearly 400K lines of formalized programs and proofs.
+
 I graduated summa cum laude from the University of Colorado, Boulder with a bachelors of arts in mathematics, with a second major in philosophy. For my honors, I defended a thesis in the mathematics department, written under the direction of [Professor Jonathan Wise](https://math.colorado.edu/~jonathan.wise/), titled “Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory." I have subsequently presented the results of my thesis at a few mathematics confrences, information about which (including slides, abstracts, and a recording of one of them) can be found [on the talks page](https://morphismz.github.io/talks).
 
-Within mathematics, I have a focus in higher category theory and homotopy theory, in type theory and the foundations of math, and in the connections between these subjects and computer science, such as functional programming and the formal verification of proofs and programs. As an application this latter interest, I am a contributor to the [agda-unimath repository](https://unimath.github.io/agda-unimath/), an encyclopedia of formalized mathematics and certified programs.
-
-I also have an interest in mathematical cryptography, combinatorics and probability theory. I enjoy writing programs implementing ideas from these subjects.
+I also have an interest in algebra, combinatorics, and mathematical cryptography.
 
 
 Mathematics
 ======
-My areas of specialization with in mathematics include higher category theory and homotopy theory, the foundations of mathematics and formal verification. In particular, I have a focus in synthetic approaches to higher category theory and homotopy theory, such as [homotopy type theory](https://en.wikipedia.org/wiki/Homotopy_type_theory) and the [univalent approach to the foundations of mathematics](https://en.wikipedia.org/wiki/Univalent_foundations). I hope to help advance their prominence in the mathematical community by developing mathematics in Homotopy Type Theory. As an example of this, [my honors thesis](https://morphismz.github.io/publication/2023-04-06-honors-thesis) constructs the Hopf fibration in a uniquely univalent way. This construction of the Hopf fibration makes salient its connection to the Eckmann-Hilton argument and further demonstrates that the generator of `π₃(𝕊²)` is an identification constructed using the Eckmann-Hilton argument.
+My areas of specialization with in mathematics include higher category theory and homotopy theory, the foundations of mathematics and formal verification. In particular, I have a focus in synthetic approaches to higher category theory and homotopy theory, such as [homotopy type theory](https://en.wikipedia.org/wiki/Homotopy_type_theory) and the [univalent approach to the foundations of mathematics](https://en.wikipedia.org/wiki/Univalent_foundations). I hope to help advance their prominence in the mathematical community by developing mathematics in Homotopy Type Theory. As an example of this, [my honors thesis](https://morphismz.github.io/publication/2023-04-06-honors-thesis) constructs the Hopf fibration in a uniquely univalent way. This construction of the Hopf fibration demonstrates that the generator of `π₃(𝕊²)` is an identification constructed using the Eckmann-Hilton argument, which allows for a quick argument via [syllepsis](https://arxiv.org/abs/2107.14283) establishing that `π₄(𝕊³)` has order at most `2`.
 
 agda-unimath
 ======
@@ -57,4 +57,4 @@ My interests in philosophy are primarily in metaphysics, philosophy of language,
 
 Teaching and Tutoring
 ======
-I am currently the lead mathematics instructor at Temple Grandin School, serving students with Asperger's Syndrome and similar learning profiles.
+I have over four years of teaching and tutoring experience. I have previously served as the lead mathematics instructor at Temple Grandin School.

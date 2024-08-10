@@ -83,9 +83,9 @@ analytics:
 author:
   name             : "Raymond Baker"
   avatar           : "profile.jpg"
-  bio              : "Math, Coding, Education"
-  location         : "Boulder, CO, USA"
-  employer         : "Temple Grandin School"
+  bio              : "I am a mathematician and functional programmer."
+  location         : ""
+  employer         : ""
   pubmed           :
   googlescholar    :
   email            : "raymondgarethbaker@gmail.com"
