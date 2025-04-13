@@ -1,0 +1,6 @@
+* Personal site for Raymond Baker
+** Build system
+Built using Haskell's slick, a static site generator. Slick uses shake as the underlying build system and provides some convenience functions for static sites and working with markup languages.
+** Hosting
+Currently these files are "hosted" via github pages. So deploying merely constitutes pushing to github. Github will serve files from /docs.
+

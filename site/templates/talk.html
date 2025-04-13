@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8">
+    <meta name="description" content="{{siteTitle}}">
+    <meta name="author" content="{{author}}">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    {{>site/templates/meta-data.html}}
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+<body>
+    {{>site/templates/header.html}}
+
+<div id="page">
+    <div class="wrapper">
+        <div class="masthead">
+            <span class="title">
+                {{title}}
+            </span>
+            <br>
+
+	    {{#video}}
+	    <div class="container">
+      	      <iframe width="560" height="315" src="https://{{video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	    </div>
+	    {{/video}}
+
+            {{#author}}
+            <span class="byline">by {{author}}</span>
+            {{/author}}
+            <br>
+	    <span><a href="https://{{venueLink}}">{{venue}}</a></span>
+	    <br>
+            <span class="date">{{date}}</span>
+            <br>
+            <div class="metadata">
+            </div>
+            <div class="tags">
+              {{#tags}}
+              <span class="tag {{.}}">{{.}}</span>
+              {{/tags}}
+            </div>
+        </div>
+    </div>
+    <article class="post">
+      {{{content}}}
+        <br>
+    </article>
+    <h2>Talk materials</h2>
+
+    {{#abstract}}
+    <a href="/files/{{abstract}}"><h3>Abstract</h3></a>
+    {{/abstract}}
+
+    {{#slides}}
+    <a href="/files/{{slides}}"><h3>Slides</h3></a>
+    {{/slides}}
+    
+    <h2>Related materials</h2>
+
+    {{#relatedLinks}}
+    <a href="/files/{{.}}"><h3>{{.}}</h3></a>
+    {{/relatedLinks}}
+
+
+</div>
+
+{{>site/templates/footer.html}}
+    
