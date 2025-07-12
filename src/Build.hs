@@ -29,6 +29,7 @@ import Blog
 import Config
 import Home
 import Index
+import Projects
 --import Redirect
 import Talks
 
@@ -56,6 +57,8 @@ buildSite = do
   buildFeed allPosts
   allTalks <- buildTalks
   buildTalkIndex $ IndexInfo "Talks" allTalks
+  allProjects <- buildProjects
+  buildProjectIndex $ IndexInfo "Projects" allProjects
   buildHome
   copyStaticFiles
 

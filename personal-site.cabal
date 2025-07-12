@@ -68,6 +68,7 @@ executable personal-site
       , Config
       , Home
       , Index
+      , Projects
       , Redirect
       , Talks
 
