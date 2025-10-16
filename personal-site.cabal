@@ -89,6 +89,7 @@ executable personal-site
       , aeson
       , lens      
       , lens-aeson
+      , pandoc
       , shake
       , slick
       , time
