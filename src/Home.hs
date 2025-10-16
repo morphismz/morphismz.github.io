@@ -23,6 +23,7 @@ import GHC.Generics
 
 import Config
 import Index
+import Util.Typst
 
 -- | Shake
 
@@ -42,7 +43,6 @@ type Tag = String
 buildHome :: Action ()
 buildHome = cacheAction ("build" :: T.Text, "site/home.md" :: FilePath) $ do
   liftIO . putStrLn $ "Rebuilding home page from site/home.md, writing to " <> outputFolder </> "index.html"
-  homeContent <- readFile' "site/home.md"
-  homeData <- markdownToHTML . T.pack $ homeContent
+  homeData <- typstAndMetaDataToHTML "site/home"
   template <- compileTemplate' "site/templates/home.html"
   writeFile' (outputFolder </> "index.html") . T.unpack $ substitute template (withSiteMeta homeData)
