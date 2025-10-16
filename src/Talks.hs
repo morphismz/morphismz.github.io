@@ -23,6 +23,7 @@ import GHC.Generics
 
 import Config
 import Index
+import Util.Typst
 
 -- | Shake
 
@@ -54,8 +55,7 @@ data Talk =
 buildTalk :: FilePath -> Action Talk
 buildTalk srcPath = cacheAction ("build" :: T.Text, srcPath) $ do
   liftIO . putStrLn $ "Rebuilding talk: " <> srcPath
-  talkContent <- readFile' srcPath
-  talkData <- markdownToHTML . T.pack $ talkContent
+  talkData <- typstAndMetaDataToHTML srcPath
   let talkUrl = T.pack . dropDirectory1 $ srcPath -<.> "html"
       withTalkUrl = _Object . at "url" ?~ String talkUrl
       fullTalkData = withSiteMeta . withTalkUrl $ talkData
@@ -65,8 +65,8 @@ buildTalk srcPath = cacheAction ("build" :: T.Text, srcPath) $ do
 
 buildTalks :: Action [Talk]
 buildTalks = do
-  pPaths <- getDirectoryFiles "." ["site/talks//*.md"]
-  sortOn (Down . date) <$> forP pPaths buildTalk
+  pPaths <- getDirectoryFiles "." ["site/talks//*.yaml"]
+  sortOn (Down . date) <$> forP pPaths (buildTalk . dropExtension)
 
 buildTalkIndex :: IndexInfo Talk -> Action ()
 buildTalkIndex = buildIndex

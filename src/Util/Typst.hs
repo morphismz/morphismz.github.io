@@ -29,7 +29,6 @@ readTypstWithMetaDataFile :: FilePath -> PandocReader Text
 readTypstWithMetaDataFile metaDataFile =
   (Pandoc <$> (yamlToMeta def (Just metaDataFile) =<< readMetadataFile metaDataFile) <*>) . (fmap (\(Pandoc _ b) -> b) . readTypst def)
 
-
 -- | Given a path to a meta data file and content, convert to HTML with meta data.
 typstWithMetaDataFileToHTML :: FilePath -> Text -> Action Value
 typstWithMetaDataFileToHTML metaDataFile = loadUsing (readTypstWithMetaDataFile metaDataFile) (writeHtml5String defaultHtml5Options)

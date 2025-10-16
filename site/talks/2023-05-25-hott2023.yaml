@@ -1,4 +1,3 @@
----
 title: "Eckmann-Hilton and the Hopf Fibration in Homotopy Type Theory"
 author: Raymond Baker
 collection: talks
@@ -10,6 +9,3 @@ location: "Pittsburgh, USA"
 tags: [Eckmann-Hilton, Hopf fibration, HoTT]
 description: Presenting my honors thesis
 slides: "hott2023-slides.pdf"
----
-
-This talk presents the results of my honors thesis.For a more refined version of the argument, see the HoTTUF2024 talk.

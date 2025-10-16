@@ -1,39 +1,35 @@
-module Blog where
+module Posts where
 
--- | Control
-
-import Control.Lens
-
--- | Data
-
+-- aeson
 import Data.Aeson
 import Data.Aeson.Lens
 
+-- base
 import Data.List
-
 import Data.Ord
 
-import Data.Text qualified as T
-
--- | Generics
-
+-- generics
 import GHC.Generics
 
--- | Project
+-- lens
+import Control.Lens
 
+-- project
 import Config
 import Index
+import Util.Typst
 
--- | Shake
-
+-- shake
 import Development.Shake
 import Development.Shake.Classes
 import Development.Shake.FilePath
 import Development.Shake.Forward
 
--- | Slick
-
+-- slick
 import Slick
+
+-- text
+import Data.Text qualified as T
 
 type Tag = String
 
@@ -52,8 +48,7 @@ data Post =
 buildPost :: FilePath -> Action Post
 buildPost srcPath = cacheAction ("build" :: T.Text, srcPath) $ do
   liftIO . putStrLn $ "Rebuilding post: " <> srcPath
-  postContent <- readFile' srcPath
-  postData <- markdownToHTML . T.pack $ postContent
+  postData <- typstAndMetaDataToHTML srcPath
   let postUrl = T.pack . dropDirectory1 $ srcPath -<.> "html"
       withPostUrl = _Object . at "url" ?~ String postUrl
       fullPostData = withSiteMeta . withPostUrl $ postData
@@ -63,8 +58,8 @@ buildPost srcPath = cacheAction ("build" :: T.Text, srcPath) $ do
 
 buildPosts :: Action [Post]
 buildPosts = do
-  pPaths <- getDirectoryFiles "." ["site/posts//*.md"]
-  sortOn (Down . date) <$> forP pPaths buildPost
+  pPaths <- getDirectoryFiles "." ["site/posts//*.yaml"]
+  sortOn (Down . date) <$> forP pPaths (buildPost . dropExtension)
 
 type PostIndexInfo = IndexInfo Post
 

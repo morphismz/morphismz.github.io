@@ -1,40 +1,20 @@
 module Home where
 
--- | Control
-
-import Control.Lens
-
--- | Data
-
-import Data.Aeson
-import Data.Aeson.Lens
-
-import Data.List
-
-import Data.Ord
-
-import Data.Text qualified as T
-
--- | Generics
-
-import GHC.Generics
-
--- | Project
-
+-- project
 import Config
-import Index
 import Util.Typst
 
--- | Shake
-
+-- shake
 import Development.Shake
-import Development.Shake.Classes
 import Development.Shake.FilePath
 import Development.Shake.Forward
 
--- | Slick
-
+-- slick
 import Slick
+
+-- text
+import Data.Text qualified as T
+
 
 type Tag = String
 

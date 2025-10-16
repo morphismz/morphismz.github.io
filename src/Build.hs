@@ -25,12 +25,11 @@ import Control.Lens
 -- | Project
 
 import Atom
-import Blog
+import Posts
 import Config
 import Home
 import Index
 import Projects
---import Redirect
 import Talks
 
 -- | Shake

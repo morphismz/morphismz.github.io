@@ -1,0 +1,1 @@
+When I come across an interesting board game, I'll try to figure out an optimal strategy for the board game. If the game is complicated enough, I may only end up with some heuristics. When I have the time, I'll try to write a blog post detailing what I did and where I landed. There's often some fun math envolved.

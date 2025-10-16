@@ -3,7 +3,7 @@ module Atom where
 
 -- | Project
 
-import Blog
+import Posts
 import Config
 
 -- | Data

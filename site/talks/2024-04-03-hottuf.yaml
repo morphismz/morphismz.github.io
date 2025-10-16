@@ -1,4 +1,3 @@
----
 title: "Eckmann-Hilton and the Hopf Fibration"
 author: Raymond Baker
 collection: talks
@@ -13,6 +12,3 @@ video: "www.youtube.com/embed/hU4_dVpmkKM?si=l0AyEOekpOlcp-tY"
 abstract: "hottuf2024-abstract.pdf"
 slides: "hottuf2024-slides.pdf"
 relatedLinks: [TomJacksHITisS1.lagda.md]
----
-
-This talk presents an improved version of my honors thesis. We describe a universal property enjoyed by the fiber of a map, and specialize this to the case of the Hopf fibration. With a bit of path algebra, an equivalence between the fiber of the Hopf fibration and S1 falls out of the universal property.
