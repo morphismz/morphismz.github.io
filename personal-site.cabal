@@ -95,6 +95,8 @@ executable personal-site
       , slick
       , time
       , text
+      , wai-app-static
+      , warp
     
 
     -- Directories containing source files.
