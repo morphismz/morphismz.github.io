@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Raymond Baker's Personal (World Wide) Website</title><style>/* Alignment */
+mtable.right-align mtd,
+mtable mtd.right-align,
+mtable.left-align mtd.right-align,
+mtable.aligned mtd:nth-child(odd) {
+  justify-items: end;
+  text-align: right;
+}
+mtable.cases mtd,
+mtable.left-align mtd,
+mtable mtd.left-align,
+mtable.aligned mtd:nth-child(even),
+math:is(:not([display])) > mtable.multiline-equation mtd {
+  justify-items: start;
+  text-align: left;
+}
+mtable.cases mtd,
+mtable.aligned mtd,
+mtable mtd.flushed,
+mtable mtd.left-flush {
+  padding-left: 0;
+}
+mtable.cases mtd,
+mtable.aligned mtd,
+mtable mtd.flushed,
+mtable mtd.right-flush {
+  padding-right: 0;
+}
+
+/* Tables */
+mtable {
+  math-style: inherit;
+}
+mtd {
+  math-depth: auto-add;
+  math-style: compact;
+  math-shift: compact;
+}
+
+/* Equations */
+mtable.multiline-equation mtd {
+  math-depth: inherit;
+  math-style: inherit;
+  math-shift: inherit;
+  padding: 0;
+}
+math > mtable.multiline-equation mtr:not(:last-child) mtd {
+  padding-bottom: 0.5em;
+}
+
+/* Fractions */
+mfrac {
+  padding-inline: 0;
+  margin-inline: 0.1em;
+}
+
+/* Accents */
+mover[accent="true" i] > :first-child {
+  font-feature-settings: "dtls";
+}
+mover.dotted[accent="true" i] > :first-child {
+  font-feature-settings: "dtls" 0;
+}
+
+/* Other rules for scriptlevel, displaystyle and math-shift */
+munder > :nth-child(2),
+munderover > :nth-child(2) {
+  math-shift: compact
+}
+munder[accentunder="true" i] > :not(:first-child),
+mover[accent="true" i] > :not(:first-child) {
+  math-depth: inherit;
+  math-style: inherit;
+  math-shift: inherit;
+}</style></head><body><h1>Raymond Baker's Personal (World Wide) Website</h1><section><h2 id="loc-1">Intro</h2><p>My name is Raymond Baker. I am currently working as software engineer at Mercury, hacking on their payments infrastructure in Haskell. Previously I worked as a Haskell programmer at MasterWord Services. And before that I worked as a high school math teacher at Temple Grandin School, a small school serving students on autism the spectrum. And before that I studied mathematics and philosophy at CU Boulder. I graduated in 2023 with with the honors <em>summa cum laude</em>. And before that I spent a number of years as a child.</p><h2 id="loc-2">Posts</h2><ul><li><a href="posts/making-things-typier.html">Making Things Typier</a></li></ul><h2 id="loc-3">Misc</h2><ul><li><a href="faqs.html">FAQs</a></li><li><a href="jokes.html">Jokes</a></li></ul></section><nav role="doc-toc"><h2>Contents</h2><ol style="list-style-type: none"><li><a href="#loc-1">Intro</a></li><li><a href="#loc-2">Posts</a></li><li><a href="#loc-3">Misc</a></li></ol></nav></body></html>
