@@ -1,1 +1,0 @@
-Moving my personal site from the Academic Pages template to Slick. Please enjoy this picture of a mirror reflecting a print of "Bold and Brash," painted by Squidward J. Quincy Tentacles (picture taken by myself).

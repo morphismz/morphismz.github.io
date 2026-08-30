@@ -1,1 +1,0 @@
-This talk presents an improved version of my honors thesis. We describe a universal property enjoyed by the fiber of a map, and specialize this to the case of the Hopf fibration. With a bit of path algebra, an equivalence between the fiber of the Hopf fibration and $SS^1$ falls out of the universal property.
